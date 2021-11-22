@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+.parent {
+    display: flex;
+}
+
+.sidebar {
+    width: 18%;
+    height: 100%;
+    position: fixed;
+    background-color: rgb(151, 72, 226);
+}
+
+.sidebar-post {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.img-sidebar { text-align: center;}
+
+.img-sidebar img {
+    width: 80%;
+    border: 8px solid rgb(124, 60, 184);
+    border-radius: 50%;
+}
+
+.menu {
+    margin: 20px 0;
+    text-align: center;
+    position: relative;
+    left: -20px;
+}
+
+.menu a {
+    color: #fff;
+    opacity: 0.4;
+    font-size: 24px;
+    display: block;
+    margin-bottom: 20px;
+    text-decoration:none;
+}
+
+.menu a.selected {
+    opacity: 1;
+}
+
+.content {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    left: 18%;
+    width: 82%;
+    height: 100%;
+    overflow-y: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    background:rgb(216, 206, 226);
+    padding: 0 5%;
+    margin: auto;
+}
+
+section.description{
+    position: relative;
+    
+}
+
+section.description h2{
+    color: #373838;
+    font-size: 100px;
+}
+
+section.description h2 span{
+    color:rgb(151, 72, 226);   
+}
+
+section.description h3{
+    margin: 15px 0;
+    color: #6c757d;
+    font-size: 26px;
+}
+
+section.description h3 span{
+    color: rgb(151, 72, 226);
+    font-size: 23px
+}
+
+section.description p{
+    color:#6c757d;
+    font-size: 22px;
+    margin-top: 40px;
+}
+
+.icons-social{
+    margin-top: 20px;
+}
+
+.icons-social a{
+    text-decoration: none;
+    color:#fff;
+    background-color: #6c757d;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.icons-social i/{
+    line-height: 40px;
+}
