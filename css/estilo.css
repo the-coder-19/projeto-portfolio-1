@@ -24,6 +24,7 @@ html, body {
 
 .sidebar-post {
     position: absolute;
+    width: 100%;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -40,7 +41,6 @@ html, body {
     margin: 20px 0;
     text-align: center;
     position: relative;
-    left: -20px;
 }
 
 .menu a {
